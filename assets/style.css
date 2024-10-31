@@ -45,3 +45,18 @@ body {
     border-radius: 4px;
     text-align: left;
   }
+  #suggestions {
+    border: 1px solid #ccc;
+    background: white;
+    position: absolute; 
+    z-index: 1000;
+}
+
+.suggestion-item {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.suggestion-item:hover {
+    background-color: #f0f0f0; 
+}
