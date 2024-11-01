@@ -1,18 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Monster Search</title>
     <link rel="stylesheet" href="assets/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <div class="container">
-        <h1>Monster Search</h1>
-        <input type="text" id="monsterInput" placeholder="Enter a monster name" />
-        <button id="searchButton">Search</button>
-        <div id="monsterResult" class="monster-result"></div>
-      </div>
-      <script src="script.js"></script>
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 min-h-screen flex items-center justify-center">
+    <div class="container bg-white dark:bg-gray-800 p-8 rounded shadow-md text-center">
+        <h1 class="text-2xl font-bold">Monster Search</h1>
+        <input type="text" id="monsterInput" class="w-full p-2 mt-4 border rounded dark:bg-gray-700 dark:border-gray-600" placeholder="Enter a monster name">
+        <button id="searchButton" class="bg-blue-500 text-white px-4 py-2 mt-2 rounded hover:bg-blue-600">Search</button>
+        <button id="theme-toggle" class="bg-gray-500 text-white px-4 py-2 mt-2 rounded hover:bg-gray-600">Dark/Light</button>
+        <div id="monsterResult" class="monster-result mt-4 p-4 border dark:border-gray-700 rounded"></div>
+    </div>
+    <script src="script.js" defer></script>
 </body>
 </html>
