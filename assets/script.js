@@ -107,7 +107,7 @@ document.getElementById('monsterInput').addEventListener('input', function(event
 
   function fetchSuggestions(query) {
  
-    const match = monsterNames.find(monster => monster.startsWith(query.toLowerCase()));
+    const match = monsterNames.filter(monster => monster.toLowerCase().startsWith(query.toLowerCase()));
   
    
     if (match) {
