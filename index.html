@@ -3,14 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
     <title>Monster Search</title>
-    <link rel="stylesheet" href="assets/style.css">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
 </head>
-<body class="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 min-h-screen flex items-center justify-center">
-    <div class="container bg-white dark:bg-gray-800 p-8 rounded shadow-md text-center">
-        <h1 class="text-2xl font-bold">Monster Search</h1>
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 min-h-screen">
+    
+    <div class="container bg-red-700 p-8 rounded shadow-md text-center mt-4 mx-auto">
+        <img src="assets/ampersand.png" alt="ampersand" class="w-32 h-32 mx-auto mt-4 float-left ml-2">
+        <h1 class="medievalsharp-regular">Dungeons & Dragons 5e Monster Search</h1>
         <input type="text" id="monsterInput" class="w-full p-2 mt-4 border rounded dark:bg-gray-700 dark:border-gray-600" placeholder="Enter a monster name">
         <button id="searchButton" class="bg-blue-500 text-white px-4 py-2 mt-2 rounded hover:bg-blue-600">Search</button>
         <button id="theme-toggle" class="bg-gray-500 text-white px-4 py-2 mt-2 rounded hover:bg-gray-600">Dark/Light</button>
