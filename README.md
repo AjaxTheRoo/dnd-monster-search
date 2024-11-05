@@ -1,5 +1,10 @@
 # D&D 5e Monster Search
 
+## User Story
+As a D&D player, 
+I want a visual guide to the monsters,
+so that I can visualize the danger in front of me
+
 ## Description
 This is a image search site for the various monsters in Dungeons & Dragons.
 If you participate in D&D Campaigns, you may have had a situation like this.
