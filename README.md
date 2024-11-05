@@ -17,6 +17,6 @@ For the CSS portion, Tailwind CSS was used, this allows the majority of design c
 The only exception is the custom font for the header title, which had do be put in a seperate stylesheet.
 
 ## Screenshot
-[capture](https://i.gyazo.com/4ff3d6d14c92af0460b427a2dafcbbd7.png)
+<img src="https://i.gyazo.com/4ff3d6d14c92af0460b427a2dafcbbd7.png">
 
 ## Link
